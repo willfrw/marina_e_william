@@ -1,0 +1,1968 @@
+/* =========================================================
+   RESET E CONFIGURAÇÕES GERAIS
+========================================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 20px;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color: #faf9f7;
+    color: #3f3a37;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+button,
+a,
+input {
+    font-family: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+/* =========================================================
+   VARIÁVEIS
+========================================================= */
+
+:root {
+
+    --background: #faf9f7;
+
+    --background-secondary: #f3efeb;
+
+    --background-card: #ffffff;
+
+    --primary: #8d6e63;
+
+    --primary-dark: #6d5148;
+
+    --primary-light: #b89f94;
+
+    --text: #3f3a37;
+
+    --text-light: #756e69;
+
+    --text-muted: #9b938e;
+
+    --border: #e8e1dc;
+
+    --success: #6f9176;
+
+    --success-background: #edf4ee;
+
+    --locked: #a87878;
+
+    --locked-background: #f7eeee;
+
+    --shadow:
+        0 10px 30px rgba(70, 55, 45, 0.07);
+
+    --shadow-hover:
+        0 18px 40px rgba(70, 55, 45, 0.12);
+
+    --radius-small: 8px;
+
+    --radius: 14px;
+
+    --radius-large: 24px;
+
+    --container-width: 1180px;
+
+}
+
+
+/* =========================================================
+   CONTAINER
+========================================================= */
+
+.container {
+
+    width: 100%;
+
+    max-width: var(--container-width);
+
+    margin: 0 auto;
+
+    padding-left: 24px;
+
+    padding-right: 24px;
+
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero {
+
+    position: relative;
+
+    min-height: 680px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    overflow: hidden;
+
+    background:
+
+        linear-gradient(
+            135deg,
+            #eee5df 0%,
+            #f8f5f1 50%,
+            #e9ddd5 100%
+        );
+
+}
+
+
+/*
+    Futuramente podemos substituir o background
+    por uma foto dos noivos:
+
+    background-image:
+        url("../assets/fotos/noivos.jpg");
+*/
+
+.hero-overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+
+        radial-gradient(
+            circle at center,
+            rgba(255, 255, 255, 0.30),
+            rgba(255, 255, 255, 0.05)
+        );
+
+}
+
+
+.hero-content {
+
+    position: relative;
+
+    z-index: 2;
+
+    max-width: 650px;
+
+    padding: 40px 24px;
+
+    animation: fadeUp 1s ease both;
+
+}
+
+
+.hero-icon {
+
+    display: block;
+
+    margin-bottom: 20px;
+
+    font-family: Georgia, serif;
+
+    font-size: 48px;
+
+    font-weight: 300;
+
+    color: var(--primary);
+
+    line-height: 1;
+
+}
+
+
+.hero-subtitle {
+
+    margin-bottom: 10px;
+
+    color: var(--primary);
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    letter-spacing: 4px;
+
+}
+
+
+.hero h1 {
+
+    margin-bottom: 12px;
+
+    font-family: "Playfair Display", Georgia, serif;
+
+    font-size: clamp(48px, 8vw, 82px);
+
+    font-weight: 500;
+
+    line-height: 1.1;
+
+    color: var(--text);
+
+}
+
+
+.hero-date {
+
+    margin-bottom: 28px;
+
+    color: var(--text-light);
+
+    font-size: 16px;
+
+    letter-spacing: 2px;
+
+}
+
+
+.hero-message {
+
+    max-width: 500px;
+
+    margin: 0 auto 35px;
+
+    color: var(--text-light);
+
+    font-size: 17px;
+
+    line-height: 1.8;
+
+}
+
+/* =========================================================
+   FOTO DO CASAL
+========================================================= */
+
+.couple-photo-placeholder {
+
+    width: 220px;
+
+    height: 220px;
+
+    margin: 0 auto 30px;
+
+    overflow: hidden;
+
+    border: 5px solid rgba(255, 255, 255, 0.85);
+
+    border-radius: 50%;
+
+    background-color: rgba(255, 255, 255, 0.45);
+
+    box-shadow:
+        0 12px 35px
+        rgba(70, 55, 45, 0.12);
+
+}
+
+
+/*
+    Conteúdo exibido enquanto a foto
+    ainda não foi adicionada.
+*/
+
+.photo-placeholder-content {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 100%;
+
+    height: 100%;
+
+    gap: 8px;
+
+    color: var(--primary);
+
+    font-size: 12px;
+
+    font-weight: 500;
+
+    letter-spacing: 1px;
+
+}
+
+
+.photo-placeholder-icon {
+
+    font-family: Georgia, serif;
+
+    font-size: 42px;
+
+    line-height: 1;
+
+}
+
+
+/*
+    Quando a foto estiver disponível,
+    podemos substituir o conteúdo do HTML
+    por uma imagem <img>.
+*/
+
+.couple-photo {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+}
+
+
+/* =========================================================
+   BOTÕES
+========================================================= */
+
+.btn {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 8px;
+
+    min-height: 50px;
+
+    padding: 13px 28px;
+
+    border: none;
+
+    border-radius: 50px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    text-align: center;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        background-color 0.25s ease;
+
+}
+
+
+.btn:hover {
+
+    transform: translateY(-2px);
+
+}
+
+
+.btn:active {
+
+    transform: translateY(0);
+
+}
+
+
+.btn-primary {
+
+    color: #ffffff;
+
+    background-color: var(--primary);
+
+    box-shadow:
+        0 8px 20px rgba(141, 110, 99, 0.22);
+
+}
+
+
+.btn-primary:hover {
+
+    background-color: var(--primary-dark);
+
+    box-shadow:
+        0 12px 28px rgba(141, 110, 99, 0.28);
+
+}
+
+
+.btn-secondary {
+
+    color: #ffffff;
+
+    background-color: var(--primary);
+
+}
+
+
+.btn-secondary:hover {
+
+    background-color: var(--primary-dark);
+
+}
+
+
+/* =========================================================
+   INTRODUÇÃO
+========================================================= */
+
+.intro {
+
+    padding: 100px 0;
+
+    text-align: center;
+
+    background-color: var(--background);
+
+}
+
+
+.intro .container {
+
+    max-width: 700px;
+
+}
+
+
+.section-decoration {
+
+    display: block;
+
+    margin-bottom: 20px;
+
+    color: var(--primary-light);
+
+    font-size: 24px;
+
+}
+
+
+.intro h2,
+.final-message h2 {
+
+    margin-bottom: 24px;
+
+    font-family: "Playfair Display", Georgia, serif;
+
+    color: var(--text);
+
+    font-size: clamp(30px, 5vw, 42px);
+
+    font-weight: 500;
+
+    line-height: 1.25;
+
+}
+
+
+.intro p {
+
+    margin-bottom: 12px;
+
+    color: var(--text-light);
+
+    font-size: 16px;
+
+    line-height: 1.8;
+
+}
+
+
+/* =========================================================
+   SEÇÃO DA LISTA
+========================================================= */
+
+.gift-list-section {
+
+    padding: 100px 0;
+
+    background-color: var(--background-secondary);
+
+}
+
+
+.section-header {
+
+    max-width: 700px;
+
+    margin: 0 auto 45px;
+
+    text-align: center;
+
+}
+
+
+.section-label {
+
+    display: block;
+
+    margin-bottom: 12px;
+
+    color: var(--primary);
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 3px;
+
+}
+
+
+.section-header h2 {
+
+    margin-bottom: 16px;
+
+    font-family: "Playfair Display", Georgia, serif;
+
+    color: var(--text);
+
+    font-size: clamp(32px, 5vw, 46px);
+
+    font-weight: 500;
+
+    line-height: 1.2;
+
+}
+
+
+.section-header p {
+
+    color: var(--text-light);
+
+    font-size: 16px;
+
+}
+
+
+/* =========================================================
+   FILTROS
+========================================================= */
+
+.gift-filters {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    margin-bottom: 25px;
+
+}
+
+
+.filter-button {
+
+    padding: 10px 20px;
+
+    border: 1px solid var(--border);
+
+    border-radius: 50px;
+
+    color: var(--text-light);
+
+    background-color: transparent;
+
+    font-size: 13px;
+
+    font-weight: 500;
+
+    transition:
+        color 0.25s ease,
+        background-color 0.25s ease,
+        border-color 0.25s ease;
+
+}
+
+
+.filter-button:hover {
+
+    border-color: var(--primary-light);
+
+    color: var(--primary);
+
+}
+
+
+.filter-button.active {
+
+    border-color: var(--primary);
+
+    color: #ffffff;
+
+    background-color: var(--primary);
+
+}
+
+
+/* =========================================================
+   CONTADOR
+========================================================= */
+
+.gift-counter {
+
+    margin-bottom: 30px;
+
+    text-align: center;
+
+}
+
+
+#gift-counter {
+
+    color: var(--text-muted);
+
+    font-size: 13px;
+
+}
+
+
+/* =========================================================
+   GRID DE PRESENTES
+========================================================= */
+
+.gift-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+    gap: 24px;
+
+}
+
+
+/* =========================================================
+   CARD DO PRESENTE
+========================================================= */
+
+.gift-card {
+
+    display: flex;
+
+    flex-direction: column;
+
+    overflow: hidden;
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius);
+
+    background-color: var(--background-card);
+
+    box-shadow: var(--shadow);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+
+}
+
+
+.gift-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: var(--shadow-hover);
+
+}
+
+
+/* =========================================================
+   IMAGEM DO PRESENTE
+========================================================= */
+
+.gift-image-container {
+
+    position: relative;
+
+    width: 100%;
+
+    height: 230px;
+
+    overflow: hidden;
+
+    background-color: #f1eeeb;
+
+}
+
+
+.gift-image {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    transition:
+        transform 0.5s ease;
+
+}
+
+
+.gift-card:hover .gift-image {
+
+    transform: scale(1.04);
+
+}
+
+
+/* =========================================================
+   STATUS
+========================================================= */
+
+.gift-status {
+
+    position: absolute;
+
+    top: 14px;
+
+    left: 14px;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    padding: 6px 11px;
+
+    border-radius: 50px;
+
+    font-size: 11px;
+
+    font-weight: 600;
+
+    backdrop-filter: blur(8px);
+
+}
+
+
+.gift-status.available {
+
+    color: #52745a;
+
+    background-color:
+        rgba(237, 244, 238, 0.95);
+
+}
+
+
+.gift-status.chosen {
+
+    color: #8d5d5d;
+
+    background-color:
+        rgba(247, 238, 238, 0.95);
+
+}
+
+
+/* =========================================================
+   CONTEÚDO DO CARD
+========================================================= */
+
+.gift-content {
+
+    display: flex;
+
+    flex-direction: column;
+
+    flex: 1;
+
+    padding: 22px;
+
+}
+
+
+.gift-category {
+
+    margin-bottom: 7px;
+
+    color: var(--primary);
+
+    font-size: 10px;
+
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+
+    text-transform: uppercase;
+
+}
+
+
+.gift-name {
+
+    min-height: 50px;
+
+    margin-bottom: 12px;
+
+    color: var(--text);
+
+    font-family: "Playfair Display", Georgia, serif;
+
+    font-size: 21px;
+
+    font-weight: 600;
+
+    line-height: 1.3;
+
+}
+
+
+.gift-price {
+
+    margin-bottom: 20px;
+
+    color: var(--primary);
+
+    font-size: 19px;
+
+    font-weight: 700;
+
+}
+
+
+.gift-quantity {
+
+    margin-bottom: 15px;
+
+    color: var(--text-muted);
+
+    font-size: 12px;
+
+}
+
+
+/* =========================================================
+   AÇÕES DO CARD
+========================================================= */
+
+.gift-actions {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 9px;
+
+    margin-top: auto;
+
+}
+
+
+.gift-actions .btn {
+
+    width: 100%;
+
+    min-height: 45px;
+
+    padding: 11px 16px;
+
+    font-size: 12px;
+
+}
+
+
+.btn-gift {
+
+    color: #ffffff;
+
+    background-color: var(--primary);
+
+}
+
+
+.btn-gift:hover {
+
+    background-color: var(--primary-dark);
+
+}
+
+
+.btn-pix {
+
+    border: 1px solid var(--border);
+
+    color: var(--primary);
+
+    background-color: transparent;
+
+}
+
+
+.btn-pix:hover {
+
+    border-color: var(--primary);
+
+    background-color: var(--background-secondary);
+
+}
+
+
+/* =========================================================
+   CARD ESCOLHIDO
+========================================================= */
+
+.gift-card.chosen {
+
+    opacity: 0.82;
+
+}
+
+
+.gift-card.chosen .gift-image {
+
+    filter: grayscale(25%);
+
+}
+
+
+.gift-chosen-message {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    min-height: 45px;
+
+    padding: 10px 15px;
+
+    border-radius: var(--radius-small);
+
+    color: #8d5d5d;
+
+    background-color: var(--locked-background);
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    text-align: center;
+
+}
+
+
+/* =========================================================
+   LOADING
+========================================================= */
+
+.loading {
+
+    grid-column: 1 / -1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    min-height: 250px;
+
+    color: var(--text-muted);
+
+}
+
+
+.loading-spinner {
+
+    width: 38px;
+
+    height: 38px;
+
+    margin-bottom: 15px;
+
+    border: 3px solid var(--border);
+
+    border-top-color: var(--primary);
+
+    border-radius: 50%;
+
+    animation:
+        spin 0.8s linear infinite;
+
+}
+
+
+/* =========================================================
+   ESTADO SEM RESULTADOS
+========================================================= */
+
+.empty-state {
+
+    grid-column: 1 / -1;
+
+    padding: 60px 20px;
+
+    text-align: center;
+
+}
+
+
+.empty-state-icon {
+
+    margin-bottom: 15px;
+
+    font-size: 40px;
+
+}
+
+
+.empty-state h3 {
+
+    margin-bottom: 8px;
+
+    font-family: "Playfair Display", Georgia, serif;
+
+    font-size: 26px;
+
+    font-weight: 500;
+
+}
+
+
+.empty-state p {
+
+    color: var(--text-light);
+
+}
+
+
+/* =========================================================
+   MENSAGEM FINAL
+========================================================= */
+
+.final-message {
+
+    padding: 110px 0;
+
+    text-align: center;
+
+    background-color: var(--background);
+
+}
+
+
+.final-message .container {
+
+    max-width: 700px;
+
+}
+
+
+.final-message h2 {
+
+    margin-bottom: 20px;
+
+}
+
+
+.final-message p {
+
+    color: var(--text-light);
+
+    font-size: 16px;
+
+    line-height: 1.8;
+
+}
+
+
+.final-heart {
+
+    margin-top: 30px;
+
+}
+
+
+.final-heart strong {
+
+    color: var(--primary);
+
+    font-family: "Playfair Display", Georgia, serif;
+
+    font-size: 20px;
+
+    font-weight: 500;
+
+}
+
+
+/* =========================================================
+   RODAPÉ
+========================================================= */
+
+.footer {
+
+    padding: 30px 0;
+
+    border-top: 1px solid var(--border);
+
+    text-align: center;
+
+    background-color: var(--background-secondary);
+
+}
+
+
+.footer p {
+
+    color: var(--text-muted);
+
+    font-size: 12px;
+
+}
+
+
+/* =========================================================
+   MODAL
+========================================================= */
+
+.modal {
+
+    position: fixed;
+
+    inset: 0;
+
+    z-index: 1000;
+
+    display: none;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 20px;
+
+}
+
+
+.modal.active {
+
+    display: flex;
+
+    animation:
+        modalFadeIn 0.25s ease both;
+
+}
+
+
+.modal-overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    background-color:
+        rgba(45, 38, 34, 0.65);
+
+    backdrop-filter: blur(5px);
+
+}
+
+
+.modal-content {
+
+    position: relative;
+
+    z-index: 2;
+
+    width: 100%;
+
+    max-width: 480px;
+
+    max-height: 90vh;
+
+    overflow-y: auto;
+
+    padding: 40px 30px;
+
+    border-radius: var(--radius-large);
+
+    text-align: center;
+
+    background-color: #ffffff;
+
+    box-shadow:
+        0 25px 70px
+        rgba(40, 30, 25, 0.20);
+
+    animation:
+        modalSlideUp 0.3s ease both;
+
+}
+
+
+.modal-close {
+
+    position: absolute;
+
+    top: 15px;
+
+    right: 18px;
+
+    width: 38px;
+
+    height: 38px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    color: var(--text-light);
+
+    background-color: transparent;
+
+    font-size: 28px;
+
+    line-height: 1;
+
+    transition:
+        background-color 0.2s ease;
+
+}
+
+
+.modal-close:hover {
+
+    background-color: var(--background-secondary);
+
+}
+
+
+.modal-icon {
+
+    margin-bottom: 12px;
+
+    color: var(--primary);
+
+    font-family: Georgia, serif;
+
+    font-size: 36px;
+
+}
+
+
+.modal-label {
+
+    display: block;
+
+    margin-bottom: 10px;
+
+    color: var(--primary);
+
+    font-size: 10px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+}
+
+
+.modal-content h2 {
+
+    margin-bottom: 10px;
+
+    font-family: "Playfair Display", Georgia, serif;
+
+    font-size: 30px;
+
+    font-weight: 500;
+
+}
+
+
+#pix-gift-name {
+
+    margin-bottom: 25px;
+
+    color: var(--text-light);
+
+    font-size: 15px;
+
+}
+
+
+.pix-value-container {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-bottom: 25px;
+
+    padding: 15px 18px;
+
+    border-radius: var(--radius-small);
+
+    background-color: var(--background-secondary);
+
+}
+
+
+.pix-value-container span {
+
+    color: var(--text-light);
+
+    font-size: 13px;
+
+}
+
+
+.pix-value-container strong {
+
+    color: var(--primary);
+
+    font-size: 20px;
+
+}
+
+
+/* ==========================================
+   QR CODE PIX
+========================================== */
+
+.pix-qrcode-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 24px auto;
+    width: 100%;
+}
+
+.pix-qrcode {
+    display: block;
+    width: 230px;
+    height: 230px;
+    object-fit: contain;
+
+    padding: 14px;
+    background-color: #ffffff;
+
+    border: 2px solid #a47d6b;
+    border-radius: 16px;
+
+    box-shadow:
+        0 4px 15px rgba(0, 0, 0, 0.10);
+}
+
+.pix-qrcode-container p {
+    max-width: 380px;
+    margin: 10px auto 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6f625c;
+}
+.pix-placeholder {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 190px;
+
+    height: 190px;
+
+    margin: 0 auto 25px;
+
+    border: 1px dashed var(--border);
+
+    border-radius: var(--radius);
+
+    background-color: var(--background-secondary);
+
+}
+
+
+.pix-placeholder-icon {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 70px;
+
+    height: 70px;
+
+    margin-bottom: 10px;
+
+    border-radius: 12px;
+
+    color: #ffffff;
+
+    background-color: var(--primary);
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+}
+
+
+.pix-placeholder p {
+
+    color: var(--text-muted);
+
+    font-size: 12px;
+
+}
+
+
+/* =========================================================
+   PIX COPIA E COLA
+========================================================= */
+
+.pix-copy-container {
+
+    display: flex;
+
+    gap: 8px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.pix-copy-container input {
+
+    flex: 1;
+
+    min-width: 0;
+
+    padding: 12px;
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius-small);
+
+    outline: none;
+
+    color: var(--text-light);
+
+    background-color: var(--background);
+
+    font-size: 11px;
+
+}
+
+
+.pix-copy-container .btn {
+
+    flex-shrink: 0;
+
+    min-height: 45px;
+
+    padding: 10px 16px;
+
+    font-size: 11px;
+
+}
+
+
+.pix-instructions {
+
+    color: var(--text-muted);
+
+    font-size: 12px;
+
+    line-height: 1.6;
+
+}
+
+
+/* =========================================================
+   ANIMAÇÕES
+========================================================= */
+
+@keyframes fadeUp {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(25px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+
+}
+
+
+@keyframes spin {
+
+    to {
+
+        transform: rotate(360deg);
+
+    }
+
+}
+
+
+@keyframes modalFadeIn {
+
+    from {
+
+        opacity: 0;
+
+    }
+
+    to {
+
+        opacity: 1;
+
+    }
+
+}
+
+
+@keyframes modalSlideUp {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(30px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+
+}
+
+
+/* =========================================================
+   RESPONSIVIDADE — TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .gift-grid {
+
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+
+    }
+
+}
+
+
+/* =========================================================
+   RESPONSIVIDADE — CELULAR
+========================================================= */
+
+@media (max-width: 600px) {
+
+    .container {
+
+        padding-left: 16px;
+
+        padding-right: 16px;
+
+    }
+
+
+    .hero {
+
+        min-height: 600px;
+
+    }
+
+
+    .hero-content {
+
+        padding: 30px 16px;
+
+    }
+
+
+    .hero h1 {
+
+        font-size: 48px;
+
+    }
+
+
+    .hero-message {
+
+        font-size: 15px;
+
+    }
+
+
+    .intro {
+
+        padding: 75px 0;
+
+    }
+
+
+    .gift-list-section {
+
+        padding: 75px 0;
+
+    }
+
+
+    .gift-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 18px;
+
+    }
+
+
+    .gift-image-container {
+
+        height: 240px;
+
+    }
+
+
+    .gift-content {
+
+        padding: 20px;
+
+    }
+
+
+    .gift-filters {
+
+        gap: 7px;
+
+    }
+
+
+    .filter-button {
+
+        padding: 9px 15px;
+
+        font-size: 12px;
+
+    }
+
+
+    .final-message {
+
+        padding: 80px 0;
+
+    }
+
+
+    .modal-content {
+
+        padding: 35px 20px;
+
+    }
+
+
+    .pix-copy-container {
+
+        flex-direction: column;
+
+    }
+
+
+    .pix-copy-container .btn {
+
+        width: 100%;
+
+    }
+
+        .couple-photo-placeholder {
+
+        width: 180px;
+
+        height: 180px;
+
+        margin-bottom: 25px;
+
+    }
+
+}
+
+
+/* =========================================================
+   ACESSIBILIDADE
+========================================================= */
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+
+    outline: 3px solid
+        rgba(141, 110, 99, 0.35);
+
+    outline-offset: 3px;
+
+}
+
+
+/* =========================================================
+   REDUÇÃO DE MOVIMENTO
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+
+        scroll-behavior: auto !important;
+
+        animation-duration: 0.01ms !important;
+
+        animation-iteration-count: 1 !important;
+
+        transition-duration: 0.01ms !important;
+
+    }
+
+}
+
+/* =========================================================
+   PLACEHOLDER DE IMAGEM DO PRESENTE
+========================================================= */
+
+.gift-image-placeholder {
+
+    display: none;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 100%;
+
+    height: 100%;
+
+    gap: 8px;
+
+    color: var(--text-muted);
+
+    background-color: #f1eeeb;
+
+    font-size: 12px;
+
+}
+
+.gift-image-placeholder span:first-child {
+
+    font-size: 42px;
+
+}
+
+/* ==========================================
+   SEÇÃO PIX
+========================================== */
+
+.pix-section {
+    padding: 80px 20px;
+    background-color: #f8f5f2;
+    text-align: center;
+}
+
+.pix-section-content {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.pix-section .section-decoration {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.pix-section .section-label {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.pix-section h2 {
+    margin-bottom: 20px;
+}
+
+.pix-section-description {
+    max-width: 560px;
+    margin: 0 auto 10px;
+    line-height: 1.7;
+}
+
+
+/* QR CODE */
+
+.pix-section .pix-qrcode-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 35px auto 25px;
+}
+
+.pix-section .pix-qrcode {
+    display: block;
+
+    width: 230px;
+    height: 230px;
+
+    object-fit: contain;
+
+    padding: 14px;
+
+    background-color: #ffffff;
+
+    border: 2px solid #a47d6b;
+    border-radius: 16px;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.10);
+}
+
+.pix-section .pix-qrcode-container p {
+    max-width: 420px;
+    margin: 15px auto 0;
+
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* COPIA E COLA */
+
+.pix-section .pix-copy-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.pix-section #general-pix-code {
+    flex: 1;
+    min-width: 0;
+
+    height: 48px;
+    padding: 0 15px;
+
+    border: 1px solid #ddd3cc;
+    border-radius: 8px;
+
+    background-color: #ffffff;
+
+    font-size: 13px;
+    color: #6f625c;
+}
+
+.pix-section #copy-general-pix {
+    height: 48px;
+    white-space: nowrap;
+}
+
+.copy-message {
+    min-height: 20px;
+    margin-top: 10px;
+
+    font-size: 14px;
+}
+
+
+/* RESPONSIVO */
+
+@media (max-width: 600px) {
+
+    .pix-section {
+        padding: 60px 20px;
+    }
+
+    .pix-section .pix-qrcode {
+        width: 200px;
+        height: 200px;
+    }
+
+    .pix-section .pix-copy-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .pix-section #general-pix-code {
+        width: 100%;
+    }
+
+    .pix-section #copy-general-pix {
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,392 @@
+[
+  {
+    "id": 1,
+    "nome": "Boleira",
+    "quantidade": 1,
+    "valor": 36.76,
+    "valorTotal": 36.76,
+    "link": " https://www.mercadolivre.com.br/boleira-bambu-com-tampa-em-acrilico-porta-bolo-cupula-28cm/up/MLBU4172390745?pdp_filters=item_id%3AMLB7058442878&matt_tool=38524122&ua=kNCgfKOlRRjy77FkPj7n9dNRDPXeDTQoGGHGfwg9GoCvgLOa#origin=whatsapp&sid=whatsapp&wid=MLB7058442878",
+    "imagem": "assets/produtos/boleira.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 2,
+    "nome": "Bowl de sopa kit com 6",
+    "quantidade": 1,
+    "valor": 65.89,
+    "valorTotal": 65.89,
+    "link": "https://www.mercadolivre.com.br/6-tigela-bowl-cumbuca-600ml-acai-ceral-caldo-branco-alfa/up/MLBU4286561914?pdp_filters=item_id%3AMLB4876405783&matt_tool=38524122&ua=w5Ka8540hL7cumkEuzcLswz4D1AM1E0zH8gpoo6Nk5uo5o9Y",
+    "imagem": "assets/produtos/bowl-sopa-kit.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 3,
+    "nome": "Bowls de Inox com Tampas kit com 3",
+    "quantidade": 1,
+    "valor": 62.90,
+    "valorTotal": 62.90,
+    "link": "https://www.mercadolivre.com.br/vittak-conjunto-3-bowls-de-inox-com-tampas-plasticas-utensilios-de-cozinha-tamanhos-variados/p/MLB41344552?pdp_filters=item_id%3AMLB6258543386&matt_tool=38524122&ua=iXb5NQg2QGUJTrf618g4CeT8OmMyuG2INpp9x_j5VURIG0de#origin=whatsapp&sid=whatsapp&wid=MLB6258543386",
+    "imagem": "assets/produtos/bowls-inox-tampas.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 4,
+    "nome": "Cabides kit",
+    "quantidade": 1,
+    "valor": 46.06,
+    "valorTotal": 46.06,
+    "link": "https://www.mercadolivre.com.br/cabide-de-metal-aramado-cromado-kit-com-20-unidades-prata-acabamento-brilhante-elegante-antiderrapante-sublimente/p/MLB74226754?pdp_filters=item_id%3AMLB4806375439&matt_tool=38524122&ua=9Z9mlVnNS5pa7y6rcKlAb9EmLy60ARyUZAXFtKYhH-NCkuS-#origin=whatsapp&sid=whatsapp&wid=MLB4806375439",
+    "imagem": "assets/produtos/cabides-kit.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 5,
+    "nome": "Copos kit",
+    "quantidade": 1,
+    "valor": 19.39,
+    "valorTotal": 19.39,
+    "link": "https://www.mercadolivre.com.br/jogo-de-copos-265ml-com-6-pecas-multiuso-batuque-nadir/up/MLBU2655436960?pdp_filters=item_id%3AMLB3894877755&matt_tool=38524122&ua=e71_JIBWkAzAOKUx4tbCL0VcZm_cKEMG2mEzCUI3k2p-4Tzr#origin=whatsapp&sid=whatsapp&wid=MLB3894877755",
+    "imagem": "assets/produtos/copos-kit.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 6,
+    "nome": "Cuscuzeira",
+    "quantidade": 1,
+    "valor": 75.77,
+    "valorTotal": 75.77,
+    "link": "https://www.mercadolivre.com.br/panela-cuscuzeira-inox-16cm-25l-fogao-inducao-gas-aco-inoxidavel-cozedor-a-vapor-para-cuscuz-nordestino-compativel-cooktop-eletrico-vitroceramico-fundo-triplo-utensilio-cozinha-tophus/p/MLB45946491?pdp_filters=item_id%3AMLB4282759189&matt_tool=38524122&ua=3rteurnnjhbg4KwYVWw0Fqvb_nMZlAbeMQtr9-5vPFowJNDn#origin=whatsapp&sid=whatsapp&wid=MLB4282759189",
+    "imagem": "assets/produtos/cuscuzeira.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 7,
+    "nome": "Edredom",
+    "quantidade": 1,
+    "valor": 78.99,
+    "valorTotal": 78.99,
+    "link": "https://www.mercadolivre.com.br/edredom-sherpa-cobertor-e-coberdrom-casal-queen-grosso-cores/up/MLBU3802081881?pdp_filters=item_id%3AMLB6258612008&applied_product_filters=MLBU1686172176&picker=true&matt_tool=38524122&ua=NX5HGxkv-K_w9tLZc3k8EpnkYLoyvftsYxV3fD5BO7PyMavy&quantity=1",
+    "imagem": "assets/produtos/edredom.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 8,
+    "nome": "Air-Fryer",
+    "quantidade": 1,
+    "valor": 180.49,
+    "valorTotal": 180.49,
+    "link": "https://www.mercadolivre.com.br/fritadeira-air-fryer-elgin-facilita-fry-35l-potencia-1400w-cor-preto/p/MLB66308260?pdp_filters=item_id%3AMLB5410031762&matt_tool=38524122&ua=S9EJ47iqUmHe2xhB2XtV9sQOpc2QT9ez9B9Q6KfHpCsoItrK#origin=whatsapp&sid=whatsapp&wid=MLB5410031762",
+    "imagem": "assets/produtos/air-fryer.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 9,
+    "nome": "Kit Panelas de Cerâmica 8 peças",
+    "quantidade": 1,
+    "valor": 719.00,
+    "valorTotal": 719.00,
+    "link": "https://www.mercadolivre.com.br/conj-de-panelas-8-pecas-ceramic-life-smart-plus-vanilla-brinox/p/MLB32717965?pdp_filters=item_id%3AMLB3797364569&matt_tool=38524122&ua=SVHYyBn7jlOhLw6tkgLr47iacQI1n2UIl4oU8ur1r2tDuw3n#origin=whatsapp&sid=whatsapp&wid=MLB3797364569",
+    "imagem": "assets/produtos/kit-panelas.jpg",
+    "status": "escolhido"
+  },
+  {
+    "id": 10,
+    "nome": "Ferro de passar roupas",
+    "quantidade": 1,
+    "valor": 62.17,
+    "valorTotal": 62.17,
+    "link": "https://www.mercadolivre.com.br/ferro-de-passar-a-seco-mondial-1200w-fsn-55-b/p/MLB19590006?pdp_filters=item_id%3AMLB2791311116&matt_tool=38524122&ua=qSGo8Vpdm6lqeh4Eilk4Tu04_SDUgBzrup6_Q3FBOyRbh1mf#origin=whatsapp&sid=whatsapp&wid=MLB2791311116",
+    "imagem": "assets/produtos/ferro-passar-roupas.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 11,
+    "nome": "Filtro de água",
+    "quantidade": 1,
+    "valor": 135.90,
+    "valorTotal": 135.90,
+    "link": "https://www.mercadolivre.com.br/filtro-purificador-vitale-branco-p-ppia-ou-parede-lorenzetti/p/MLB27958070?pdp_filters=item_id%3AMLB4764603085&matt_tool=38524122&ua=THw0cUZ4h5sIZIiAhmHnqqHdqmxmGmJxpGmtc4GjLfWWbeiJ#origin=whatsapp&sid=whatsapp&wid=MLB4764603085",
+    "imagem": "assets/produtos/filtro-agua.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 12,
+    "nome": "Jarra de suco",
+    "quantidade": 1,
+    "valor": 29.99,
+    "valorTotal": 29.99,
+    "link": "https://www.mercadolivre.com.br/jarra-de-vidro-12l-tampa-bambu-hermetico-para-suco/up/MLBU3952860221?pdp_filters=item_id%3AMLB6755610912&matt_tool=38524122&ua=EXLPO0Gjh3JexyGCoC9td44C9qS-p3V9xeS0eXO__P8qnWOc#origin=whatsapp&sid=whatsapp&wid=MLB6755610912",
+    "imagem": "assets/produtos/jarra-suco.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 13,
+    "nome": "Liquidificador",
+    "quantidade": 1,
+    "valor": 102.90,
+    "valorTotal": 102.90,
+    "link": "https://www.mercadolivre.com.br/liquidificador-britania-diamante-1100-600w-3-velocidades/up/MLBU4003467505?pdp_filters=item_id%3AMLB6843990232&matt_tool=38524122&ua=gTccNI1Bh81Ipfk7OxIzHF2pui0F-qlC7XLWw_8cP_gLcJGo#origin=whatsapp&sid=whatsapp&wid=MLB6843990232",
+    "imagem": "assets/produtos/liquidificador.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 14,
+    "nome": "Mancebo Cabideiro",
+    "quantidade": 1,
+    "valor": 35.85,
+    "valorTotal": 35.85,
+    "link": "https://www.mercadolivre.com.br/mancebo-cabideiro-com-ganchos-organizador-bolsa-bones/up/MLBU3747021107?pdp_filters=item_id%3AMLB4440156519&matt_tool=38524122&ua=KAj3lhmOzrTmzvMqO2cRAHAqK3tQ6OWQNygjx6lBGdG0lVK4",
+    "imagem": "assets/produtos/mancebo-cabideiro.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 15,
+    "nome": "Panela de pressão 7 Litros",
+    "quantidade": 1,
+    "valor": 93.00,
+    "valorTotal": 93.00,
+    "link": "https://www.mercadolivre.com.br/panela-de-pressao-7-litros-aluminio-preta-grande-segura-reforcada-cozimento-rapido-economica-fechamento-interno/p/MLB60052928?pdp_filters=item_id%3AMLB4264944139&matt_tool=38524122&ua=hd6spzQEgvCNk9C3DgMPK7C3oNjrkUQZGBOE9dYhNCdDKV#origin=whatsapp&sid=whatsapp&wid=MLB4264944139",
+    "imagem": "assets/produtos/panela-pressao.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 16,
+    "nome": "Panela elétrica",
+    "quantidade": 1,
+    "valor": 127.02,
+    "valorTotal": 127.02,
+    "link": "https://www.mercadolivre.com.br/panela-eletrica-de-arroz-rizzo-elgin-5-xicaras-400w/p/MLB47881248?pdp_filters=item_id%3AMLB4571206885&matt_tool=38524122&ua=GTkKSyQ3DqPRFeRsXuu7cttaow3t2f52sxDA5A0Yots7WzXp#origin=whatsapp&sid=whatsapp&wid=MLB4571206885",
+    "imagem": "assets/produtos/panela-eletrica.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 17,
+    "nome": "Panos de prato",
+    "quantidade": 1,
+    "valor": 37.00,
+    "valorTotal": 37.00,
+    "link": "https://www.mercadolivre.com.br/kit-5-panos-de-copa-atoalhado-felpudo-100-algodao-colorido/up/MLBU3725096099?pdp_filters=item_id%3AMLB6168423712&matt_tool=38524122&ua=QC3IMjm7qPtOrktTyslZLOK3OaM8eLJvhwoLupaAm-CLInDt#origin=whatsapp&sid=whatsapp&wid=MLB6168423712",
+    "imagem": "assets/produtos/panos-prato.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 18,
+    "nome": "Porta escova de dentes",
+    "quantidade": 1,
+    "valor": 26.00,
+    "valorTotal": 26.00,
+    "link": "https://www.mercadolivre.com.br/suporte-escova-dentes-dispenser-pasta-uv-parede-branco/up/MLBU3982429496?pdp_filters=item_id%3AMLB4688877167&matt_tool=38524122&ua=kPsQycCAqR2j8rNm-P3iN4zdlhAB2VgbQxEa4ME5Cj1AkqMu#origin=whatsapp&sid=whatsapp&wid=MLB4688877167",
+    "imagem": "assets/produtos/porta-escova.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 19,
+    "nome": "Potes hermético kit com 6",
+    "quantidade": 1,
+    "valor": 60.84,
+    "valorTotal": 60.84,
+    "link": "https://shopee.com.br/product/1383448342/23098803332?d_id=1f572&uls_trackid=567daq1s00ev&utm_content=3TDW7JuCCScu2EKk8GA9LVpsZrPZ",
+    "imagem": "assets/produtos/potes-hermeticos.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 20,
+    "nome": "Potes para temperos",
+    "quantidade": 1,
+    "valor": 40.00,
+    "valorTotal": 40.00,
+    "link": "https://www.mercadolivre.com.br/kit-6-potes-porta-mantimentos-de-vidro-tampa-de-bambu-150ml/up/MLBU1968987978?pdp_filters=item_id%3AMLB2030584872&matt_tool=38524122&ua=d-z9l4vsbZ744LMXBOwS7seojgDibbT8nMG9-4Iibj4iWg_F#origin=whatsapp&sid=whatsapp&wid=MLB2030584872",
+    "imagem": "assets/produtos/potes-temperos.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 21,
+    "nome": "Pratos kit",
+    "quantidade": 1,
+    "valor": 26.99,
+    "valorTotal": 26.99,
+    "link": "https://www.mercadolivre.com.br/jogo-4-pratos-fundos-de-vidro-transparente-diamond-22-cm/up/MLBU3831579781?pdp_filters=item_id%3AMLB6437315226&matt_tool=38524122&ua=Nm6gK_2AI3HCWmRZFx_Sx7s7dAYVQzMKRt5bY_CdLLrLbxfd#origin=whatsapp&sid=whatsapp&wid=MLB6437315226",
+    "imagem": "assets/produtos/pratos-kit.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 22,
+    "nome": "Processador de alimentos",
+    "quantidade": 1,
+    "valor": 77.48,
+    "valorTotal": 77.48,
+    "link": "https://www.mercadolivre.com.br/multiprocessador-alimento-moedor-triturador-eletrico-2l-inox/up/MLBU4196151615?attributes=COLOR%3APrateado%2CVOLTAGE%3AMLBU4196151615&pdp_filters=item_id%3AMLB7088261898&applied_product_filters=MLBU4196151615&picker=true&matt_tool=38524122&ua=dZOc7fKbik12LL0sfIBdjiQxZyA4ogjVdKfoJLgSXzFL5j9y&quantity=1",
+    "imagem": "assets/produtos/processador-alimentos.jpg",
+    "status": "escolhido"
+  },
+  {
+    "id": 23,
+    "nome": "Ralador",
+    "quantidade": 1,
+    "valor": 35.00,
+    "valorTotal": 35.00,
+    "link": "https://www.mercadolivre.com.br/kit-4-utensilios-inox-cozinha-ralador-alho-amassador/up/MLBU3769644729?pdp_filters=item_id%3AMLB4461809481&matt_tool=38524122&ua=SFixMXMPTPr8vuKtb1M0s7pCBjWV20HxNvQQ1_ni98atdNz7#origin=whatsapp&sid=whatsapp&wid=MLB4461809481",
+    "imagem": "assets/produtos/ralador.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 24,
+    "nome": "Roupa de cama kit",
+    "quantidade": 2,
+    "valor": 23.79,
+    "valorTotal": 47.58,
+    "link": "https://produto.mercadolivre.com.br/MLB-6420413062-jogo-de-lencol-cama-casal-3-pecas-estampado-em-microfibra-_JM?matt_tool=38524122&ua=ZS6KBwTi7vJwRF15hXdIzV9wdiK0DcY7CYce9bUVcreXbFry",
+    "imagem": "assets/produtos/roupa-cama-kit.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 25,
+    "nome": "Sanduicheira",
+    "quantidade": 1,
+    "valor": 132.99,
+    "valorTotal": 132.99,
+    "link": "https://www.mercadolivre.com.br/sanduicheira-e-grill-britania-bgr16-2-em-1-redstone-750w-cor-preto-com-prata/p/MLB29196587?pdp_filters=item_id%3AMLB4072665365&matt_tool=38524122&ua=16OrtAyVQ5uH61tRMRL-yvkXDlUU5D0LijOX-DG2gCN1VKEj#origin=whatsapp&sid=whatsapp&wid=MLB4072665365",
+    "imagem": "assets/produtos/sanduicheira.jpg",
+    "status": "escolhido"
+  },
+  {
+    "id": 26,
+    "nome": "Sapateira",
+    "quantidade": 1,
+    "valor": 84.83,
+    "valorTotal": 84.83,
+    "link": "https://shopee.com.br/product/285306072/22992998678?d_id=1f572&uls_trackid=567d1hp3003h&utm_content=3TDW7JuCGDts7jGekCuyi4Am2ZpK",
+    "imagem": "assets/produtos/sapateira.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 27,
+    "nome": "Tábua de passar roupas",
+    "quantidade": 1,
+    "valor": 85.80,
+    "valorTotal": 85.80,
+    "link": "https://www.mercadolivre.com.br/tabua-de-passar-roupa-reforcada-com-porta-ferro-3-alturas/up/MLBU4253301080?pdp_filters=item_id%3AMLB4860145479&matt_tool=38524122&ua=hCFFTDsf40c152olsMC3wgkRLZylEkyvtTfJJjQBalEJ-yCa#origin=whatsapp&sid=whatsapp&wid=MLB4860145479",
+    "imagem": "assets/produtos/tabua-passar-roupas.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 28,
+    "nome": "Talheres kit em aço",
+    "quantidade": 1,
+    "valor": 76.90,
+    "valorTotal": 76.90,
+    "link": "https://www.mercadolivre.com.br/jogo-talheres-faqueiro-buzios-aco-inox-24-pecas-tramontina/p/MLB35092029?pdp_filters=item_id%3AMLB5456793742&matt_tool=38524122&ua=ZStduq-hd0w04EMGHwieTSELyPrgYcSOP4o77MBaOF-bmVmy#origin=whatsapp&sid=whatsapp&wid=MLB5456793742",
+    "imagem": "assets/produtos/talheres-kit-aco.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 29,
+    "nome": "Tapete anti-derrapante",
+    "quantidade": 1,
+    "valor": 28.55,
+    "valorTotal": 28.55,
+    "link": "https://www.mercadolivre.com.br/kit-2-tapetes-felpudos-banheiro-antiderrapantes-60x40cm/up/MLBU4031645216?pdp_filters=item_id%3AMLB4720232335&matt_tool=38524122&ua=A2ErFw1J2qVbGLL1-emOueWKad-g8gvS-toG3_QYZBHqH4qe#origin=whatsapp&sid=whatsapp&wid=MLB4720232335",
+    "imagem": "assets/produtos/tapete-antiderrapante.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 30,
+    "nome": "Tesoura Cozinha",
+    "quantidade": 1,
+    "valor": 35.59,
+    "valorTotal": 35.59,
+    "link": "https://www.mercadolivre.com.br/tesoura-multifuncional-cozinha-inox-frango-assa-peixe-osso/up/MLBU3706267688?pdp_filters=item_id%3AMLB6108676044&matt_tool=38524122&ua=5LbsUQAxqtVo3SPNvvtyvRSL3EevHm4BoAPY-CRkxurD5vmD#origin=whatsapp&sid=whatsapp&wid=MLB6108676044",
+    "imagem": "assets/produtos/tesoura-cozinha.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 31,
+    "nome": "Toalha de banho e rosto",
+    "quantidade": 2,
+    "valor": 40.00,
+    "valorTotal": 80.00,
+    "link": "https://produto.mercadolivre.com.br/MLB-3730279179-jogo-de-toalhas-banho-e-rosto-100-algodo-kit-2-pcs-felpuda-_JM?matt_tool=38524122&attributes=PATTERN_NAME%3AQnJhbmNv&ua=HsEGIlV3KR92ze9KmskoOYIzd9j1mpmuJXlbod3ibjy3k7J8#origin=whatsapp&sid=whatsapp",
+    "imagem": "assets/produtos/toalha-banho-rosto.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 32,
+    "nome": "Toalha de mesa",
+    "quantidade": 1,
+    "valor": 32.90,
+    "valorTotal": 32.90,
+    "link": "https://www.mercadolivre.com.br/toalha-de-mesa-4-lugares-quadrada-rustica-luxo-140x140m-cor-galhos/p/MLB28894365?pdp_filters=item_id%3AMLB3545966323&matt_tool=38524122&ua=mOBwp75q8vEDocqcH53MfaRi3ZgHSdXUHs1Ij_bSG-6CmvPS#origin=whatsapp&sid=whatsapp&wid=MLB3545966323",
+    "imagem": "assets/produtos/toalha-mesa.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 33,
+    "nome": "Varal de chão",
+    "quantidade": 1,
+    "valor": 74.97,
+    "valorTotal": 74.97,
+    "link": "https://www.mercadolivre.com.br/varal-de-chao-vertical-dobravel-3-andares-com-rodas-aco-reforcado-capacidade-40kg-torre-para-secar-roupas-compacto-portatil-multifuncional-para-casa-apartamento-lavanderia-shokki/p/MLB62257935?pdp_filters=item_id%3AMLB5674990844&matt_tool=38524122&ua=Nw4Ga30HN8EBnxtJuc1J5dXMtGkkmVepOvWt6fpFwZ18IkzW#origin=whatsapp&sid=whatsapp&wid=MLB5674990844",
+    "imagem": "assets/produtos/varal-chao.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 34,
+    "nome": "Xícara conjunto",
+    "quantidade": 1,
+    "valor": 39.99,
+    "valorTotal": 39.99,
+    "link": "https://www.mercadolivre.com.br/jogo-6-xicaras-cafe-cha-medina-ceramica-100ml-hauskraft/up/MLBU3951140974?pdp_filters=item_id%3AMLB6978454554&matt_tool=38524122&ua=0fjJHmmktkOdAOzW9vPlGEKd7DYVIf23GgLD_W_nhqfiIrDs#origin=whatsapp&sid=whatsapp&wid=MLB6978454554",
+    "imagem": "assets/produtos/xicara-conjunto.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 35,
+    "nome": "Cafeteira Digital",
+    "quantidade": 1,
+    "valor": 277.77,
+    "valorTotal": 277.77,
+    "link": "https://www.mercadolivre.com.br/cafeteira-digital-aroma-wcd-1500-wap-preto/p/MLB42197136?pdp_filters=item_id%3AMLB4561082563&matt_tool=38524122&ua=nsB6aQDxsqIrF-QWcs51SUGThVjoPlZtKpWdNwMv70rg4eus#origin=whatsapp&sid=whatsapp&wid=MLB4561082563",
+    "imagem": "assets/produtos/cafeteira-digital.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 36,
+    "nome": "Fogão 6 Bocas",
+    "quantidade": 1,
+    "valor": 863.88,
+    "valorTotal": 863.88,
+    "link": "https://www.mercadolivre.com.br/fogao-itatiaia-star-new-piso-6-bocas-preto-mesa-inox/p/MLB61958966?pdp_filters=item_id%3AMLB6107717094&matt_tool=38524122&ua=Z6r0w_4zhpL9r1Dk6qQ6SToTwXKfQToYGWKpNjsI1k_7DecJ#origin=whatsapp&sid=whatsapp&wid=MLB6107717094",
+    "imagem": "assets/produtos/fogao.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 37,
+    "nome": "Kit Escorredor",
+    "quantidade": 1,
+    "valor": 37.63,
+    "valorTotal": 37.63,
+    "link": "https://www.mercadolivre.com.br/kit-escorredor-macarrao-massas--escorredor-arroz-aco-inox/up/MLBU4045465999?pdp_filters=item_id%3AMLB6907612114&matt_tool=38524122&ua=wFAQ58QFOrz9cmpoPdgBWPgwu2dDWDymvVPR_UZwFPq0y5gU#origin=whatsapp&sid=whatsapp&wid=MLB6907612114",
+    "imagem": "assets/produtos/kit-escorredor.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 38,
+    "nome": "Suporte de Banheiro - Prateleira",
+    "quantidade": 1,
+    "valor": 68.48,
+    "valorTotal": 68.48,
+    "link": "https://www.mercadolivre.com.br/suporte-de-banheiro-com-prateleira-ajustavel-aco-inox-15g/p/MLB61894442?pdp_filters=item_id%3AMLB4294292395&matt_tool=38524122&ua=uWR2LlCA35-HxFLWYbVCme2-6ST6ztpovIS4tm1eCyWGz_xo#origin=whatsapp&sid=whatsapp&wid=MLB4294292395",
+    "imagem": "assets/produtos/suporte-banheiro.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 39,
+    "nome": "Suporte Organizador de Esponja e Detergente para Pia de Cozinha",
+    "quantidade": 1,
+    "valor": 32.99,
+    "valorTotal": 32.99,
+    "link": "https://www.mercadolivre.com.br/suporte-organizador-esponja-detergente-pia-cozinha-metal/up/MLBU3960670609?pdp_filters=item_id%3AMLB6770375384&matt_tool=38524122&ua=I2aDzLrHbOLBoOW12GaPxrfoiJQa1Sp-Y5s7zqiNFTSbpKnx#origin=whatsapp&sid=whatsapp&wid=MLB6770375384",
+    "imagem": "assets/produtos/suporte-organizador.jpg",
+    "status": "disponivel"
+  }
+]

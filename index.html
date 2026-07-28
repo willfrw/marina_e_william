@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Lista de presentes de casamento"
+    >
+
+    <title>Lista de Presentes | Nosso Casamento</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+</head>
+
+<body>
+
+    <!-- ==========================================
+         CABEÇALHO / HERO
+    =========================================== -->
+
+    <header class="hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <!-- FOTO DO CASAL -->
+        <div class="couple-photo-placeholder">
+
+            <img
+                src="assets/fotos/casal.jpg"
+                alt="Foto do casal"
+                class="couple-photo"
+            >
+
+        </div>
+
+
+        <span class="hero-icon">♡</span>
+
+        <p class="hero-subtitle">
+            NOSSO CASAMENTO
+        </p>
+
+        <h1>
+            Marina &amp; William
+        </h1>
+
+        <p class="hero-date">
+            17 de outubro de 2026
+        </p>
+
+        <p class="hero-message">
+            Estamos muito felizes em compartilhar
+            este momento tão especial com vocês.
+        </p>
+
+        <a
+            href="#lista"
+            class="btn btn-primary"
+        >
+            Ver lista de presentes
+        </a>
+
+    </div>
+
+    </header>
+
+<!-- ==========================================
+     PRESENTE EM PIX
+=========================================== -->
+
+    <section class="pix-section">
+
+        <div class="container">
+
+            <div class="pix-section-content">
+
+                <span class="section-decoration">
+                    ♡
+                </span>
+
+                <span class="section-label">
+                    UMA OUTRA FORMA DE PRESENTEAR
+                </span>
+
+                <h2>
+                    Presente em Pix
+                </h2>
+
+                <p class="pix-section-description">
+                    Se preferir, você também pode contribuir
+                    com qualquer valor através do nosso Pix.
+                </p>
+
+                <p class="pix-section-description">
+                    Toda contribuição será recebida com muito
+                    carinho e fará parte do início da nossa
+                    vida juntos. ❤️
+                </p>
+
+
+                <!-- QR CODE PIX -->
+
+                <div class="pix-qrcode-container">
+
+                    <img
+                        src="assets/pix/qr-code-pix.jpg"
+                        alt="QR Code para pagamento via Pix"
+                        class="pix-qrcode"
+                    >
+
+                    <p>
+                        Aponte a câmera do celular para o QR Code
+                        ou copie a chave Pix abaixo.
+                    </p>
+
+                </div>
+
+
+                <!-- PIX COPIA E COLA -->
+
+                <div class="pix-copy-container">
+
+                    <input
+                        type="text"
+                        id="general-pix-code"
+                        value="00020126480014br.gov.bcb.pix0126ribeiromarinaoia@gmail.com5204000053039865802BR5925MARINA NASCIMENTO OIA RIB6009Sao Paulo62290525REC6A68B48E6576757149645063041389"
+                        readonly
+                    >
+
+                    <button
+                        type="button"
+                        id="copy-general-pix"
+                        class="btn btn-secondary"
+                    >
+                        Copiar PIX
+                    </button>
+
+                </div>
+
+                <p
+                    id="general-pix-message"
+                    class="copy-message"
+                ></p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         MENSAGEM
+    =========================================== -->
+
+    <section class="intro">
+
+        <div class="container">
+
+            <span class="section-decoration">
+                ✦
+            </span>
+
+            <h2>
+                Um presente cheio de carinho
+            </h2>
+
+            <p>
+                O maior presente é ter vocês conosco
+                celebrando este momento tão especial.
+            </p>
+
+            <p>
+                Mas, para quem deseja nos presentear,
+                preparamos esta lista com muito carinho.
+                Sintam-se à vontade para escolher o
+                que mais combina com vocês.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         LISTA DE PRESENTES
+    =========================================== -->
+
+    <main id="lista" class="gift-list-section">
+
+        <div class="container">
+
+            <div class="section-header">
+
+                <span class="section-label">
+                    COM CARINHO
+                </span>
+
+                <h2>
+                    Nossa lista de presentes
+                </h2>
+
+                <p>
+                    Escolha um presente ou, se preferir,
+                    contribua com o valor através do PIX.
+                </p>
+
+            </div>
+
+
+            <!-- ======================================
+                 FILTROS
+            ======================================= -->
+
+            <div class="gift-filters">
+
+                <button
+                    type="button"
+                    class="filter-button active"
+                    data-filter="todos"
+                >
+                    Todos
+                </button>
+
+                <button
+                    type="button"
+                    class="filter-button"
+                    data-filter="disponivel"
+                >
+                    Disponíveis
+                </button>
+
+                <button
+                    type="button"
+                    class="filter-button"
+                    data-filter="escolhido"
+                >
+                    Já escolhidos
+                </button>
+
+            </div>
+
+
+            <!-- ======================================
+                 CONTADOR
+            ======================================= -->
+
+            <div class="gift-counter">
+
+                <span id="gift-counter">
+                    Carregando presentes...
+                </span>
+
+            </div>
+
+
+            <!-- ======================================
+                 GRID DE PRESENTES
+            ======================================= -->
+
+            <div
+                id="gift-grid"
+                class="gift-grid"
+            >
+
+                <!--
+                    Os cards dos presentes serão
+                    inseridos automaticamente pelo
+                    JavaScript através do presentes.json.
+                -->
+
+                <div class="loading">
+
+                    <div class="loading-spinner"></div>
+
+                    <p>
+                        Carregando nossa lista...
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- ==========================================
+         MENSAGEM FINAL
+    =========================================== -->
+
+    <section class="final-message">
+
+        <div class="container">
+
+            <span class="section-decoration">
+                ♡
+            </span>
+
+            <h2>
+                O mais importante é ter vocês conosco
+            </h2>
+
+            <p>
+                Obrigado por fazerem parte da nossa história
+                e por celebrarem esse momento ao nosso lado.
+            </p>
+
+            <p class="final-heart">
+                Com carinho,<br>
+                <strong>Marina &amp; William</strong>
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         RODAPÉ
+    =========================================== -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>
+                Feito com ♥ para o nosso grande dia.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ==========================================
+         MODAL PIX
+    =========================================== -->
+
+    <div
+        id="pix-modal"
+        class="modal"
+        aria-hidden="true"
+    >
+
+        <div class="modal-overlay"></div>
+
+        <div
+            class="modal-content"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="pix-modal-title"
+        >
+
+            <button
+                type="button"
+                class="modal-close"
+                id="close-pix-modal"
+                aria-label="Fechar"
+            >
+                &times;
+            </button>
+
+
+            <div class="modal-icon">
+                ♡
+            </div>
+
+
+            <span class="modal-label">
+                PRESENTEAR VIA PIX
+            </span>
+
+
+            <h2 id="pix-modal-title">
+                Contribua com este presente
+            </h2>
+
+
+            <p id="pix-gift-name">
+                Nome do presente
+            </p>
+
+
+            <div class="pix-value-container">
+
+                <span>
+                    Valor sugerido
+                </span>
+
+                <strong id="pix-gift-value">
+                    R$ 0,00
+                </strong>
+
+            </div>
+
+
+            <!-- QR CODE PIX -->
+
+            <div class="pix-qrcode-container">
+
+                <img
+                    src="assets/pix/qr-code-pix.jpg"
+                    alt="QR Code para pagamento via Pix"
+                    class="pix-qrcode"
+                >
+
+                <p font-size="small">
+                    Aponte a câmera do celular para o QR Code
+                    ou utilize o botão abaixo para copiar o PIX.
+                </p>
+
+            </div>
+
+
+            <div class="pix-copy-container">
+
+                <input
+                    type="text"
+                    id="pix-code"
+                    value=""
+                    readonly
+                    placeholder="PIX Copia e Cola"
+                >
+
+                <button
+                    type="button"
+                    id="copy-pix"
+                    class="btn btn-secondary"
+                >
+                    Copiar PIX
+                </button>
+
+            </div>
+
+
+            <p class="pix-instructions">
+                Depois de realizar o PIX, é só avisar
+                os noivos. ❤️
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- ==========================================
+         JAVASCRIPT
+    =========================================== -->
+
+    <script
+        src="js/app.js"
+        defer
+    ></script>
+
+</body>
+</html>
