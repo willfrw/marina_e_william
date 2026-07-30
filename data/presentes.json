@@ -388,5 +388,45 @@
     "link": "https://www.mercadolivre.com.br/suporte-organizador-esponja-detergente-pia-cozinha-metal/up/MLBU3960670609?pdp_filters=item_id%3AMLB6770375384&matt_tool=38524122&ua=I2aDzLrHbOLBoOW12GaPxrfoiJQa1Sp-Y5s7zqiNFTSbpKnx#origin=whatsapp&sid=whatsapp&wid=MLB6770375384",
     "imagem": "assets/produtos/suporte-organizador.jpg",
     "status": "disponivel"
+  },
+  {
+    "id": 40,
+    "nome": "Comoda Grande Organizadora de Roupas com 5 Gavetas",
+    "quantidade": 1,
+    "valor": 281.20,
+    "valorTotal": 281.20,
+    "link": "https://www.mercadolivre.com.br/comoda-grande-organizadora-de-roupas-com-5-gavetas-quarto-blue-moby/p/MLB75013216?pdp_filters=item_id%3AMLB7114618554&matt_tool=38524122&ua=3mcGrABXrVAmA4BJgDY_E14BtgaGKgep7Szmc0W1I2m-txWP#origin=whatsapp&sid=whatsapp&wid=MLB7114618554",
+    "imagem": "assets/produtos/comoda-organizadora.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 41,
+    "nome": "Panela de Pipoca",
+    "quantidade": 1,
+    "valor": 52.99,
+    "valorTotal": 52.99,
+    "link": "https://www.mercadolivre.com.br/panela-de-pipoca-pipoqueira-aluminio-4-l-com-tampa-de-vidro/up/MLBU3964226050?pdp_filters=item_id%3AMLB4670535251&matt_tool=38524122&ua=O0cqpMRZHLjd_nMGM-mwrYaCvBQAkVBtTZOwzyqSbzlsgjc8#origin=whatsapp&sid=whatsapp&wid=MLB4670535251",
+    "imagem": "assets/produtos/panela-pipoca.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 42,
+    "nome": "Escada Doméstica de Alumínio Dobrável",
+    "quantidade": 1,
+    "valor": 249.90,
+    "valorTotal": 249.90,
+    "link": "https://www.mercadolivre.com.br/escada-domestica-de-aluminio-dobravel-c-5-degraus-mor/p/MLB57313632?pdp_filters=item_id%3AMLB4906943717&matt_tool=38524122&ua=n4eOF1f9hZrVAAbyLOSiTou7zvVGn4yvNMAaU7XacpdRTGAK#origin=whatsapp&sid=whatsapp&wid=MLB4906943717",
+    "imagem": "assets/produtos/escada-aluminio.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 43,
+    "nome": "Luva Térmica de Cozinha",
+    "quantidade": 1,
+    "valor": 29.00,
+    "valorTotal": 29.00,
+    "link": "https://www.mercadolivre.com.br/kit-2-luva-termica-cozinha-de-silicone-forradas-de-forno/up/MLBU4088009829?pdp_filters=item_id%3AMLB4775519479&matt_tool=38524122&ua=1Cup-YX9kcM6ZczA52qeNGNbEywuOuFdWfiNIJC-6-K_bl8o#origin=whatsapp&sid=whatsapp&wid=MLB4775519479",
+    "imagem": "assets/produtos/luva-termica.jpg",
+    "status": "disponivel"
   }
 ]

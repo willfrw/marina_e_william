@@ -621,7 +621,7 @@ function abrirModalPix(
     */
 
     pixCode.value =
-        "00020126480014br.gov.bcb.pix0126ribeiromarinaoia@gmail.com5204000053039865802BR5925MARINA NASCIMENTO OIA RIB6009Sao Paulo62290525REC6A68B48E6576757149645063041389";
+        "00020126880014br.gov.bcb.pix0136c94ed8f8-ca56-46b7-ab80-49e3ded769490226Cofrinho de Marina Ribeiro5204000053039865802BR5914Marina Ribeiro6006Marica61082494141062270523COFRNDYzNzAyODMwMDAwMDQ630470AD";
 
 
     pixModal.classList.add(
