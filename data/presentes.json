@@ -237,7 +237,7 @@
     "valorTotal": 47.58,
     "link": "https://produto.mercadolivre.com.br/MLB-6420413062-jogo-de-lencol-cama-casal-3-pecas-estampado-em-microfibra-_JM?matt_tool=38524122&ua=ZS6KBwTi7vJwRF15hXdIzV9wdiK0DcY7CYce9bUVcreXbFry",
     "imagem": "assets/produtos/roupa-cama-kit.jpg",
-    "status": "disponivel"
+    "status": "escolhido"
   },
   {
     "id": 25,
@@ -311,12 +311,12 @@
   },
   {
     "id": 32,
-    "nome": "Toalha de mesa",
+    "nome": "Porta Talher",
     "quantidade": 1,
-    "valor": 32.90,
-    "valorTotal": 32.90,
-    "link": "https://www.mercadolivre.com.br/toalha-de-mesa-4-lugares-quadrada-rustica-luxo-140x140m-cor-galhos/p/MLB28894365?pdp_filters=item_id%3AMLB3545966323&matt_tool=38524122&ua=mOBwp75q8vEDocqcH53MfaRi3ZgHSdXUHs1Ij_bSG-6CmvPS#origin=whatsapp&sid=whatsapp&wid=MLB3545966323",
-    "imagem": "assets/produtos/toalha-mesa.jpg",
+    "valor": 49.99,
+    "valorTotal": 49.99,
+    "link": "https://www.mercadolivre.com.br/porta-talher-pequeno-bambu-organiza-armario-gaveta-cozinha/up/MLBU4326902878?pdp_filters=item_id%3AMLB4894793949&from=gshop&matt_tool=31493002&matt_word=&matt_source=google&matt_campaign_id=22090354070&matt_ad_group_id=191786769801&matt_match_type=&matt_network=g&matt_device=c&matt_creative=782869962197&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=423842187&matt_product_id=MLBU4326902878&matt_product_partition_id=2471556133191&matt_target_id=aud-2009166904988%3Apla-2471556133191&cq_src=google_ads&cq_cmp=22090354070&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22090354070&gbraid=0AAAAAD93qcCPMeNtj8oc6qkWgfeBjRMCV&gclid=CjwKCAjw7KvTBhA6EiwAWnutYYZFs6Z0BBTcDLx49f4if298lLuz1mr89BeDn65YbHTxxi_F50qCexoCunoQAvD_BwE",
+    "imagem": "assets/produtos/porta-talher.jpg",
     "status": "disponivel"
   },
   {
@@ -351,12 +351,12 @@
   },
   {
     "id": 36,
-    "nome": "Fogão 6 Bocas",
+    "nome": "Suporte de Microondas",
     "quantidade": 1,
-    "valor": 863.88,
-    "valorTotal": 863.88,
-    "link": "https://www.mercadolivre.com.br/fogao-itatiaia-star-new-piso-6-bocas-preto-mesa-inox/p/MLB61958966?pdp_filters=item_id%3AMLB6107717094&matt_tool=38524122&ua=Z6r0w_4zhpL9r1Dk6qQ6SToTwXKfQToYGWKpNjsI1k_7DecJ#origin=whatsapp&sid=whatsapp&wid=MLB6107717094",
-    "imagem": "assets/produtos/fogao.jpg",
+    "valor": 79.99,
+    "valorTotal": 79.99,
+    "link": "https://shopee.com.br/product/1654001477/58254274503?gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QABpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAM_NxfHGgeczprZR4Q8tPoOfvwhbtN63JlB369xGJA1mbqBWuW2sVWxQjSJT_xT_mbG0_W5kumedB_GGTjqmNpcGhlcnRleHTEdAAAAAwuep1BewHOMGpL2-VnmH-We_5-JhbyfRtFPmaVvK0v4beitNmIe0QuYqRY0Ybbd51W5NN49SXK4FDOzIemYK-ZrZdB5niEfsxjxbdqvlU4MSWlRKJI0g7qwQUTi-fWCmN1DPTRkmc5I6Ktpyt2P-D8&gad_source=1&gad_campaignid=23353217471&gbraid=0AAAAACoEtRlBP-NB1wyccJCXNHVlnrUu6&gclid=CjwKCAjw7KvTBhA6EiwAWnutYXklTRF85O0754n22EXLjBVB3MgRkFQygcYirhv0qJUN2-xm1XUpTRoCvrkQAvD_BwE",
+    "imagem": "assets/produtos/suporte-microondas.jpg",
     "status": "disponivel"
   },
   {
@@ -391,12 +391,12 @@
   },
   {
     "id": 40,
-    "nome": "Comoda Grande Organizadora de Roupas com 5 Gavetas",
+    "nome": "Organizador de Armário",
     "quantidade": 1,
-    "valor": 281.20,
-    "valorTotal": 281.20,
-    "link": "https://www.mercadolivre.com.br/comoda-grande-organizadora-de-roupas-com-5-gavetas-quarto-blue-moby/p/MLB75013216?pdp_filters=item_id%3AMLB7114618554&matt_tool=38524122&ua=3mcGrABXrVAmA4BJgDY_E14BtgaGKgep7Szmc0W1I2m-txWP#origin=whatsapp&sid=whatsapp&wid=MLB7114618554",
-    "imagem": "assets/produtos/comoda-organizadora.jpg",
+    "valor": 108.79,
+    "valorTotal": 108.79,
+    "link": "https://www.mercadolivre.com.br/organizador-de-armario-sob-pia-extensivel-2-niveis-prateleira-ajustavel-em-aco-preto-para-gabinete-de-pia-estante-organizadora-interna-de-2-andares-para-cozinha-88-x-245-x-48-cm-decor8-planejados/p/MLB75649837?pdp_filters=item_id%3AMLB7240449952&from=gshop&matt_tool=22783954&matt_word=&matt_source=google&matt_campaign_id=23351282105&matt_ad_group_id=193694047407&matt_match_type=&matt_network=g&matt_device=c&matt_creative=787871588780&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735128761&matt_product_id=MLB75649837-product&matt_product_partition_id=2408249456833&matt_target_id=aud-2009166904988%3Apla-2408249456833&cq_src=google_ads&cq_cmp=23351282105&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=23351282105&gbraid=0AAAAAD93qcCyJl-6FPBEw8bTutGXTU5j_&gclid=CjwKCAjw7KvTBhA6EiwAWnutYYldhdjyAIGs7Vp1i7Rb4_5KG_mejN_HvW3WiFBgMTHsty7eIRgkXRoCVpcQAvD_BwE",
+    "imagem": "assets/produtos/organizador-armario.jpg",
     "status": "disponivel"
   },
   {
@@ -410,16 +410,6 @@
     "status": "disponivel"
   },
   {
-    "id": 42,
-    "nome": "Escada Doméstica de Alumínio Dobrável",
-    "quantidade": 1,
-    "valor": 249.90,
-    "valorTotal": 249.90,
-    "link": "https://www.mercadolivre.com.br/escada-domestica-de-aluminio-dobravel-c-5-degraus-mor/p/MLB57313632?pdp_filters=item_id%3AMLB4906943717&matt_tool=38524122&ua=n4eOF1f9hZrVAAbyLOSiTou7zvVGn4yvNMAaU7XacpdRTGAK#origin=whatsapp&sid=whatsapp&wid=MLB4906943717",
-    "imagem": "assets/produtos/escada-aluminio.jpg",
-    "status": "disponivel"
-  },
-  {
     "id": 43,
     "nome": "Luva Térmica de Cozinha",
     "quantidade": 1,
@@ -427,6 +417,26 @@
     "valorTotal": 29.00,
     "link": "https://www.mercadolivre.com.br/kit-2-luva-termica-cozinha-de-silicone-forradas-de-forno/up/MLBU4088009829?pdp_filters=item_id%3AMLB4775519479&matt_tool=38524122&ua=1Cup-YX9kcM6ZczA52qeNGNbEywuOuFdWfiNIJC-6-K_bl8o#origin=whatsapp&sid=whatsapp&wid=MLB4775519479",
     "imagem": "assets/produtos/luva-termica.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 44,
+    "nome": "Cesto de Roupa",
+    "quantidade": 1,
+    "valor": 56.34,
+    "valorTotal": 56.34,
+    "link": "https://www.mercadolivre.com.br/cesto-de-roupa-suja-em-bambu-72l-retangular-dobravel-tampa-e-alca-reforcada-pitia/p/MLB68063831?pdp_filters=item_id:MLB6799919448#polycard_client=recommendations_pdp-pads-right&wid=MLB6799919448&sid=recos&reco_backend=pdp_pads_right_rars_v2_with_default&reco_model=fallback_productos-promocionados&reco_client=pdp-pads-right&reco_item_pos=0&reco_backend_type=low_level&reco_id=0a0a1260-9b88-476a-aeab-7c1a0d11fdc4&is_advertising=true&ad_domain=PDPDESKTOP_RIGHT&ad_position=1&ad_click_id=MTNkMmQ1MmMtODQ3Ny00NzM2LWJlZjAtNzhlMGJmMDk4MTM1",
+    "imagem": "assets/produtos/cesto-roupa.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 45,
+    "nome": "Kit 5 Utensílios de Bambu",
+    "quantidade": 1,
+    "valor": 19.00,
+    "valorTotal": 19.00,
+    "link": "https://www.mercadolivre.com.br/kit-5-utensilios-de-bambu-cozinha-colher-espatula-antifungos/up/MLBU3813240806?pdp_filters=item_id%3AMLB6292586892&matt_tool=38524122&ua=hBMv1rqwgNofHklCd2ut8HSyg9lgC3LPqJKnNnYPoSiCeoBU#origin=whatsapp&sid=whatsapp&wid=MLB6292586892",
+    "imagem": "assets/produtos/kit-utensilios-bambu.jpg",
     "status": "disponivel"
   }
 ]
