@@ -410,6 +410,16 @@
     "status": "disponivel"
   },
   {
+    "id": 42,
+    "nome": "Tabua de Corte 34x24cm",
+    "quantidade": 1,
+    "valor": 59.00,
+    "valorTotal": 59.00,
+    "link": "https://produto.mercadolivre.com.br/MLB-4649513779-tabua-de-corte-em-bambu-34x24cm-com-alca-de-metal-_JM?matt_tool=38524122&attributes=COLOR_SECONDARY_COLOR%3ATmF0dXJhbA%3D%3D%2CPATTERN_NAME%3AVmVyc8OhdGlsIHBhcmEgY296aW5oYSBSZXRhbmd1bGFy&ua=H9HQL3EnDfr5A5GIhMN5zn0HboW7zJzxZL1Erv_UXkeeR8Vc#origin=whatsapp&sid=whatsapp",
+    "imagem": "assets/produtos/tabua-corte.jpg",
+    "status": "disponivel"
+  },
+  {
     "id": 43,
     "nome": "Luva Térmica de Cozinha",
     "quantidade": 1,
@@ -437,6 +447,16 @@
     "valorTotal": 19.00,
     "link": "https://www.mercadolivre.com.br/kit-5-utensilios-de-bambu-cozinha-colher-espatula-antifungos/up/MLBU3813240806?pdp_filters=item_id%3AMLB6292586892&matt_tool=38524122&ua=hBMv1rqwgNofHklCd2ut8HSyg9lgC3LPqJKnNnYPoSiCeoBU#origin=whatsapp&sid=whatsapp&wid=MLB6292586892",
     "imagem": "assets/produtos/kit-utensilios-bambu.jpg",
+    "status": "disponivel"
+  },
+  {
+    "id": 46,
+    "nome": "Conjunto de facas 4 peças",
+    "quantidade": 1,
+    "valor": 49.99,
+    "valorTotal": 49.99,
+    "link": "https://www.mercadolivre.com.br/conjunto-de-facas-4-pecas-plenus-aco-inox-tramontina-preto/p/MLB62145412?pdp_filters=item_id%3AMLB7027438864&matt_tool=38524122&ua=2XPaHbcNxuFile9PwwGc_5_kvvOPIH-q8ekKmBelejrJbPwQ#origin=whatsapp&sid=whatsapp&wid=MLB7027438864",
+    "imagem": "assets/produtos/conjunto-facas.jpg",
     "status": "disponivel"
   }
 ]
